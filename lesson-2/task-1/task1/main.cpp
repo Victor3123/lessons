@@ -14,7 +14,7 @@ int main() {
     cin >> surname;
     cout << "How old are you?: " << endl;
     cin >> age;
-    cout << surname << " " << name << "," << " " << age;
+    cout << surname << " " << name << "," << " " << age << " years old";
 
     return 0;
 }
