@@ -12,7 +12,7 @@ int main() {
     cin >> name;
     cout << "What is your surname?:" << endl;
     cin >> surname;
-    cout << "How old are you?: " << endl;
+    cout << "How old are you? : " << endl;
     cin >> age;
     cout << surname << " " << name << "," << " " << age << " years old";
 
