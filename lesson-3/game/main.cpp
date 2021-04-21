@@ -8,26 +8,26 @@ using namespace std;
 
 void game(){
     int comp;
-    int igrok;
+    int gamer;
     time_t t;
 
     srand((unsigned) time(&t));
     comp = rand() % 6 + 1;
 
-    igrok = rand() % 6 + 1;
+    gamer = rand() % 6 + 1;
 
     cout << "Компьютер бросает кости: " << comp << endl;
-    cout << "Вы бросаете кости: " << igrok << endl;
+    cout << "Вы бросаете кости: " << gamer << endl;
 
-    if (igrok == comp) {
+    if (gamer == comp) {
         cout << "Нечья" << endl;
 
     }
 
-    if (igrok > comp) {
+    if (gamer > comp) {
         cout << "Вы выиграли" << endl;
     }
-    if (igrok < comp) {
+    if (gamer < comp) {
 
 
         cout << "Вы проиграли" << endl;
@@ -47,10 +47,6 @@ int replay(char dp){
     else {
         return 3;
     }
-//    else {
-//        cout << "Вы ввели неверные данные\n";
-//        goto c;
-//    }
 
 }
 
@@ -72,6 +68,4 @@ int main() {
         goto r;
     }
 
-    cin.get();
-    cin.get();
 }
