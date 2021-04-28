@@ -16,7 +16,7 @@ int main() {
 
     for (int i = 0; i < DIM1; i++) {
         for (int j = 0; j < DIM2; j++) {
-            ary[i][j] = rand() % 90 + 10;
+            ary[i][j] = rand() % 81 + 10;
         }
     }
     for (int i = 0; i < DIM1; i++) {
