@@ -1,3 +1,0 @@
-C:/Users/user/CLionProjects/lessons/lesson-4/task-3-on-cpp/cmake-build-debug/CMakeFiles/_3.dir
-C:/Users/user/CLionProjects/lessons/lesson-4/task-3-on-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/user/CLionProjects/lessons/lesson-4/task-3-on-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
