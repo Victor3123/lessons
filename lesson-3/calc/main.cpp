@@ -71,7 +71,7 @@ int main() {
 
 
     int oprtr;
-
+    string name = "Vitya";
     float firstNumb, secondNumb;
 
 
