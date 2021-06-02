@@ -14,6 +14,7 @@ int main() {
     pet->getName();
 
     delete pet;
+    printf()
 
     return 0;
 }
